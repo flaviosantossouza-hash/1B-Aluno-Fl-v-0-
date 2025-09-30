@@ -1,6 +1,15 @@
-:root{
-    --space-cadet: #2b2d42ff;
-    --cool-gray: #8d99aeff;
-    --antiflash-white: #edf2f4ff;
-    --red-pantone: #ef233cff;
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&display=swap');
+    :root{
+    --Azul: #2b2d42ff;
+    --Azul-Claro: #8d99aeff;
+    --Branco: #edf2f4ff;
+    --Vermelho: #ed2100;
+    --titulo: "Bungee Spice", sans-serif;
+    --texto: "Bebas Neue", sans-serif;
+}
+
+body {
+    background-color: var(--Azul);
+    font-family: var(--titulo);
 }
