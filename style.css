@@ -12,4 +12,9 @@
 body {
     background-color: var(--Azul);
     font-family: var(--titulo);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
 }
