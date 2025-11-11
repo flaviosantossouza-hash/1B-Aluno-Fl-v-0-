@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 :root{
-    --ônix: #403f4cff;
---preto: #2c2b3cff;
---preto-azul: rgb(0, 14, 36);
---rich-black: #121420ff;
+    --ônix: rgb(185, 185, 185);
+--preto: rgb(130, 129, 143);
+--preto-azul: rgb(4, 37, 90);
+--rich-black: rgb(47, 51, 75);
 --titulo: "Bungee Spice", sans-serif;
 --texto: "Indie Flower", cursive;
 }
@@ -18,7 +18,7 @@ body{
 }
 
 button{
-  background-color: #403f4cff;
+  background-color: rgb(112, 104, 196);
   color: var(--preto);
   padding: 10px;
   border: 2px olid var(--preto-azul);
@@ -29,11 +29,11 @@ button{
 }
 
 button:hover{
-  background-color: #121420ff;
+  background-color: rgb(42, 50, 97);
   color: var(--preto);
   transition: 0.5px;
-  border: 2px solid #000;
-  box-shadow: 2px 2px 10px #000;
+  border: 2px solid #5a5151;
+  box-shadow: 2px 2px 10px #2e2c2c;
 }
 
 main{
